@@ -25,6 +25,8 @@ int main() {
 		+ to_string(sum_local_minimums(minimums, count)) + "\n");
 
 	remove(array);
+	remove(minimums);
+
 
 	return 0;
 }
